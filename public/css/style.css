@@ -442,21 +442,29 @@ header .intro-text {
 /* Team Section */
 #team {
   padding: 100px 0;
+  display: flex;
+  justify-content: center; /* Để căn giữa các ảnh */
 }
+
 #team h4 {
-  margin: 5px 0;
+  margin: 10px 0;
 }
+
 #team .team-img {
   width: 240px;
 }
+
 #team .thumbnail {
-  background: transparent;
-  border: 0;
+  background-color: transparent;
+  border: none;
+  margin: 0 10px; /* Khoảng cách giữa các ảnh */
 }
+
 #team .thumbnail .caption {
-  padding: 10px 0 0;
+  padding-top: 10px;
   color: #888;
 }
+  
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;

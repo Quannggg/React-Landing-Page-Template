@@ -6,7 +6,8 @@
   #about,
   #services,
   #testimonials,
-  #team,
+  #team{
+    width: 111%;}
   #contact,
   #footer {
     width: 111%;
